@@ -48,23 +48,25 @@ class AllWidgets extends StatelessWidget {
 
   Widget customMediumText(String text, Color color) {
     return  Text(text, 
-    style:  TextStyle(
-      fontSize: 20, 
-      color: color, 
-      fontFamily: 'Gilroy',
-      fontWeight: FontWeight.w500,
+      style:  TextStyle(
+        fontSize: 20, 
+        color: color, 
+        fontFamily: 'Gilroy',
+        fontWeight: FontWeight.w500,
 
-    ));
+      ),
+    );
   }
 
-    Widget customSmallText(String text, Color color) {
+  Widget customSmallText(String text, Color color) {
     return  Text(text, 
-    style:  TextStyle(
-      fontSize: 16, 
-      color: color, 
-      fontFamily: 'Inter'
+      style:  TextStyle(
+        fontSize: 16, 
+        color: color, 
+        fontFamily: 'Inter'
 
-    ));
+      ),
+    );
   }
 
  
