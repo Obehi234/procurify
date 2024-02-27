@@ -71,8 +71,16 @@ class AllWidgets extends StatelessWidget {
 
  
 
-  Widget customBoldText(String text) {
-    return Text(text);
+   Widget customBoldText(String text, Color color) {
+    return  Text(text, 
+      style:  TextStyle(
+        fontSize: 50.4, 
+        color: color, 
+        fontFamily: 'Gilroy',
+        fontWeight: FontWeight.bold,
+
+      ),
+    );
   }
 
   Widget customTextSubText() {
