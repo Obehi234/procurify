@@ -83,8 +83,15 @@ class AllWidgets extends StatelessWidget {
     );
   }
 
-  Widget customTextSubText() {
-    return Text(
-        'Solve your most costly spend management problems with Procurify’s purchasing and AP automation platform.');
+  Widget customSubText(String text, Color color) {
+    return  Text(text, 
+      style:  TextStyle(
+        fontSize: 18, 
+        color: color, 
+        fontFamily: 'Inter',
+        fontWeight: FontWeight.normal,
+
+      ),
+    );
   }
 }
