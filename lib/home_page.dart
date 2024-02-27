@@ -6,7 +6,14 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-     
+     appBar: AppBar(
+      leading: Image.asset('assets/images/procurify_logo.svg'),
+      actions: [
+        OutlinedButton(onPressed: () {}, child: Text('Get Started'))
+
+      ],
+
+     ),
 
     );
   }
